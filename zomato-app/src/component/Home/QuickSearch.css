@@ -1,0 +1,86 @@
+
+#quicksearch
+{
+    width: 80%;
+    /* height:200px; */
+    /* border :5px double orange; */
+    margin-left: 10%;
+  margin-top: 0%;
+  margin-bottom:10%;
+  display: inline-block;
+  background-color: white;
+}
+#quickHeading
+{
+    margin-left:2%;
+    font-size:30px;
+    font-weight: bold;
+    font:normal normal bold 30px/46px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;;
+    display:block ; 
+
+}
+#quickHeading:hover{
+    font-size:50px
+}
+#quickSubheading {
+    color:#8C96AB;
+    font-size: 18px;
+    margin-left: 2%;
+}
+.tileContainer{
+    width:30%;
+    height:150px;
+    box-shadow: 10px 20px 15px #3a323229;
+    margin-left: 2%;
+    margin-top: 3%;
+    float: left;
+    /* animation: dance 10s infinite; */
+}
+.tileContainer:hover {
+    transform:scale(1.1)
+    /* transform: skewY(10deg) */
+    /* transform: rotate(180deg); */
+   }
+   .tileComponent1 {
+    width: 40%;
+    float:left;
+ 
+  }
+  .tileComponent1 img {
+
+    width: 150%;
+    height: 150px;
+   
+  }
+  .tileComponent2 {
+    width: 45%;
+    float:left;
+    margin-top: -50%;
+    margin-left: 67%;
+    font-size: 10px;
+  }
+  .componentHeading {
+    font-size: 20px;
+    color: #192F60;
+  }
+  .componentHeading > a {
+    color: #192F60 !important;
+  }
+  .componentSubHeading {
+    font-size :12px;
+    color:#8C96AB;
+    position: relative;
+    margin-top:11%;
+    margin-left:62%;
+
+  }
+ 
+@keyframes dance {
+    0% {transform: rotate(-5deg)}
+    25% {transform: rotate(0deg)}
+    50% {transform: rotate(5deg)}
+    65% {transform: rotate(1.1)}
+    100% {transform: rotate(-5deg)}
+  }
